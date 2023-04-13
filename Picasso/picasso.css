@@ -1,0 +1,103 @@
+/* Flexbox */
+.painting-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .painting-row {
+    flex: 1;
+  }
+  
+  /* Row colors */
+  .row-1 {
+    background-color: #72bcd4;
+  }
+
+  .row-3 img {  
+    position: absolute;  
+    right: 4em;
+    width: 10%;
+    height: auto;
+  }
+  
+  .row-2 {
+    background-color: #448dbd;
+  }
+  
+  .row-3 {
+    background-color: #2c698d;
+  }
+  
+  .row-4 {
+    background-color: #1c4b6d;
+  }
+  
+  /* Moon */
+  .moon {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(241, 241, 215);
+  }
+  
+  /* Stars */
+  .star {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 40%;
+    background-color: rgb(243, 230, 185);
+  }
+  
+  .star-1 {
+    top: 150px;
+    left: 800px;
+  }
+  
+  .star-2 {
+    top: 250px;
+    left: 50px;
+  }
+  
+  .star-3 {
+    top: 350px;
+    left: 250px;
+  }
+
+  .star-4 {
+    top: 100px;
+    left: 500px;
+  }
+
+  .star-5 {
+    top: 300px;
+    left: 600px;
+  }
+
+  img {
+    width: 15%;
+    height: auto;
+
+  }
+
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid rgb(9, 11, 117) 4px;
+    border-radius: 3%;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+
+.form {
+    border: solid rgb(3, 17, 44) 1px;
+    border-radius: 3%;
+    margin: 1rem;
+    padding: 2rem;
+}
+

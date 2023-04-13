@@ -1,0 +1,61 @@
+h2 {
+  color: rgb(16, 151, 230);
+  padding: 3em;
+  border: thick double #32a1ce;
+}
+
+h2 {
+  background-color: rgba(191, 248, 246, 0.346)
+}
+
+
+h3 {
+  color: rgb(237, 109, 197);
+  padding: 3em;
+  border: thick double #32a1ce;
+}
+
+h3 {
+  background-color: rgba(248, 191, 222, 0.346)
+}
+
+
+body {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/399/711/614/glitter-widescreen-retina-imac-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-holder {
+  width: 400vw;
+  min-height: 400vh;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1rem solid;
+}
+
+.content-box {
+  columns: 2 auto;
+}
+
+
+.fit-picture {
+
+  width: 150px;
+}
+
+img {
+  border: 1px solid #c8558e;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+  height: 200px;
+  
+}
+
+div {
+  background-color: #75a9c520;
+}

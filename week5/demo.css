@@ -1,0 +1,31 @@
+#navBar {
+    border: 2px solid red;
+}
+
+.link {
+    border: 1px solid green;
+    margin-right: 10px;
+}
+
+h1 {
+    border: 5px solid blue;
+}
+
+/* body {
+    border: 5px solid purple;
+} */
+
+.box {
+    border: 2px solid purple;
+    margin: 10px;
+}
+
+.child {
+    display: inline-block;
+    vertical-align: top;
+    background-color: salmon;
+    border: 10px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}

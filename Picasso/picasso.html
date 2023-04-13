@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Picasso Painting</title>
+    <link rel="stylesheet" href="picasso.css">
+</head>
+<body>
+    <!--This is where I make a container-->
+    <div class="painting-container">
+        <div class="painting-row row-1"></div>        
+        <div class="painting-row row-2"></div>
+    <!--This is how I put the spaceship on the third row-->
+        <div class="painting-row row-3">
+        <img src="https://images.vexels.com/media/users/3/301760/isolated/lists/5f91da9600a38fe6e6afaba6c67f30ad-spaceship-alien-kawaii-cartoon-character.png" alt="Alien abducting a cow"></div>     
+        <div class="painting-row row-4"></div>
+        </div>
+        <div class="moon"></div>
+        <div class="star star-1"></div>
+        <div class="star star-2"></div>
+        <div class="star star-3"></div> 
+        <div class="star star-4"></div>  
+        <div class="star star-5"></div>        
+      </div>
+    </div>
+    <!--Form for submissions-->
+    <div class="form">
+    <form action="http://127.0.0.1:5500/Picasso/formsubmitted.html" method="/PUT">
+        <label for="firstname">First Name: </label>
+        <input type="text" name="firstname" placeholder="first name" id="firstname">
+        <label for="lastname">Last Name: </label>
+        <input type="text" name="lastname" placeholder="last name" id="lastname">
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="email">
+        
+        <button>Submit</button>
+        </form>
+    </div>
+      </body>
+        
+    
+</body>
+</html>
